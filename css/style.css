@@ -25,31 +25,45 @@ general
     margin: 0 auto ;
  }
 
+ /* 
+ utility
+  */
+
+  .link{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+  }
 
  /* 
  header
   */
+  a[class="fa-brands fa-discord"]{
+    font-weight: bold;
+    color: red;
+    
+  }
+
  
   .header-top{
-    background-color: #ADD8E6;
+    background-color: #255EE9;
     padding: 10px;
     text-align: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    color: white;
   }
 
-
   .item-20{
-    background-color: #DAA520 ;
     border: 1px dashed black;
     width: 20%;
     padding: 10px;
+    font-weight: bold;
   
   }
 
   .item-40{
-    background-color: #DAA520 ;
     border: 1px dashed black;
     width: 40%;
     padding: 10px;
