@@ -35,39 +35,43 @@ general
     color: white;
   }
 
+
+
+  .button{
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+  }
+  
  /* 
  header
   */
-  a[class="fa-brands fa-discord"]{
-    font-weight: bold;
-    color: red;
+  .container-header-top{
+    background-color: #ADD8E6;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+  }
+ 
+  .row-header-top{
+    background-color: #DAA520;
+    display: flex;
+    min-width: 90%;
+    margin: 0 auto;
+    text-align: center;
     
   }
 
- 
-  .header-top{
-    background-color: #255EE9;
-    padding: 10px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    color: white;
+  .column-header-top{
+    width: calc(100% / 3);
+    border: 1px dashed;
+    margin: 0 auto;
   }
 
-  .item-20{
-    border: 1px dashed black;
-    width: 20%;
-    padding: 10px;
-    font-weight: bold;
-  
-  }
 
-  .item-40{
-    border: 1px dashed black;
-    width: 40%;
-    padding: 10px;
-  }
+
 
   .header-bottom{
     background-color: #00008B ;
@@ -76,14 +80,13 @@ general
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-  
   }
 
   .header-bottom > div{
     background-color: #EE82EE;
     width: 60%;
-    
   }
+
 
   /* 
   main
