@@ -48,8 +48,17 @@ general
  header
   */
 
+  .align-left{
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .align-right{
+    text-align: right;
+  }
+
   .container-header-top{
-    background-color: #ADD8E6;
+    background-color: #255EE9;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -57,23 +66,21 @@ general
   }
  
   .row-header-top{
-    background-color: #DAA520;
-    display: flex;
     min-width: 90%;
     margin: 0 auto;
     text-align: center;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .column-header-top-sides{
     width: calc(100% / 3 * 1);
-    border: 1px dashed;
     margin: 0 auto;
   }
 
   .column-header-top-center{
     width: calc(100% / 3 * 2);
-    border: 1px dashed;
     margin: 0 auto;
   }
 
