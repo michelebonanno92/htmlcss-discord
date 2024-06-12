@@ -47,6 +47,7 @@ general
  /* 
  header
   */
+
   .container-header-top{
     background-color: #ADD8E6;
     display: flex;
@@ -64,14 +65,17 @@ general
     
   }
 
-  .column-header-top{
-    width: calc(100% / 3);
+  .column-header-top-sides{
+    width: calc(100% / 3 * 1);
     border: 1px dashed;
     margin: 0 auto;
   }
 
-
-
+  .column-header-top-center{
+    width: calc(100% / 3 * 2);
+    border: 1px dashed;
+    margin: 0 auto;
+  }
 
   .header-bottom{
     background-color: #00008B ;
