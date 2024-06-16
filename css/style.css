@@ -212,19 +212,43 @@ img{
 
    .footer-top .footer-top-left h3{
     color: #7289DA;
+    padding-bottom: 5px;
    }
 
    .footer-top .footer-top-left img {
-    width: 8%;
+    width: 6%;
+    margin-right: -5px;
+    
    }
 
    .footer-top .footer-top-left select{
-    font-size: 0.6rem;
+    font-size: 0.4rem;
     background-color: #23272A;
     border: none;
     color: white;
    }
 
+   
+   .footer-top .footer-top-left div a i{
+    font-size: 0.7rem;
+    padding: 2px;
+    padding-top: 8px;
+    color: white;
+    text-decoration: none;
+   }
+
+ .footer-top-right nav a {
+    color: white;
+    font-size: 0.6rem;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 9px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+   }
+
+   .footer-top-right nav a:first-child{
+    color: #7289DA;;
+   }
 
 
    .footer-top-left{
@@ -233,9 +257,7 @@ img{
   }
 
   .footer-top-right{
-    background-color:#20B2AA ;
     width: 56%;
-    border: 1px dashed black;
     min-height: 300px;
     display: flex;
 
