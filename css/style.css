@@ -120,18 +120,28 @@ img{
   }
 
   .first-section-main img{
-    background-color: yellow;
-    width: 50%;
-    min-height: 250px;
+    width: 45%;
+    min-height: 200px;
   }
 
   .first-section-main div{
-    background-color: #FFC0CB ;
     width: 25%;
-    border: 1px dashed black;
     min-height: 300px;
-    padding-top: 30px ;
+    padding-top: 40px ;
+  }
+
+  .first-section-main div h2{
+    font-size: 25px;
     text-align: left;
+    padding-bottom: 25px;
+    line-height: 30px;
+  }
+
+  .first-section-main div p{
+    font-size: 0.6rem;
+    text-align: left;
+    padding-bottom: 25px;
+    line-height: 15px;
   }
 
   .second-section-main{
