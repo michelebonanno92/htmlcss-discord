@@ -29,6 +29,10 @@ general
   text-decoration: none;
 }
 
+img{
+  width: 100%;
+}
+
  /* 
  header
   */
@@ -96,6 +100,7 @@ general
   #button-black{
     background-color: black;
     color: white;
+    margin-left: 10px;
   }
 
 
@@ -114,18 +119,19 @@ general
     padding: 50px;
   }
 
-  .first-section-main :first-child{
-    background-color:#1E90FF;
+  .first-section-main img{
+    background-color: yellow;
     width: 50%;
-    border: 1px dashed black;
-    min-height: 300px;
+    min-height: 250px;
   }
 
-  .first-section-main :nth-child(2){
+  .first-section-main div{
     background-color: #FFC0CB ;
-    width: 30%;
+    width: 25%;
     border: 1px dashed black;
     min-height: 300px;
+    padding-top: 30px ;
+    text-align: left;
   }
 
   .second-section-main{
