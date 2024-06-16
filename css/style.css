@@ -51,6 +51,7 @@ img{
     border-radius: 20px;
     padding: 6px 10px;
     font-size: 0.8em;
+    border: none;
     
   }
 
@@ -103,9 +104,6 @@ img{
     margin-left: 10px;
   }
 
-
-
-
   /* 
   main
   */
@@ -137,10 +135,10 @@ img{
     line-height: 30px;
   }
 
-  .first-section-main div p , .second-section-main div p , .third-section-main div p{
+  .first-section-main div p , .second-section-main div p , .third-section-main div p {
     font-size: 0.6rem;
-    text-align: left;
     line-height: 15px;
+    text-align: left;
   }
 
   .second-section-main{
@@ -163,13 +161,41 @@ img{
   
   }
 
-  .fourth-section-main :first-child{
-    background-color:#228B22;
-    border: 1px dashed black;
-    min-height: 300px;
-    width: 75%;
+  .fourth-section-main div{
+    min-height: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
   }
 
+  .fourth-section-main div p {
+    font-size: 0.6rem;
+    line-height: 15px;
+    padding-top: 15px;
+  }
+
+  .fourth-section-main img{
+    max-width: 60% ;
+    margin-top: -20px; 
+  }
+
+  
+  .fourth-section-main div a button {
+    background-color: #7289DA;
+    color: white;
+  }
+
+  .stars-container{
+    position: relative;
+    max-width: 50%;
+  }
+
+  .stars-container img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50% , -50% );
+  }
 
   /* 
   footer
