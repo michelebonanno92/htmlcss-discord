@@ -202,16 +202,33 @@ img{
    */
 
    .footer-top{
+    background-color: #23272A;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 10px;
+    color: white;
    }
 
+   .footer-top .footer-top-left h3{
+    color: #7289DA;
+   }
+
+   .footer-top .footer-top-left img {
+    width: 8%;
+   }
+
+   .footer-top .footer-top-left select{
+    font-size: 0.6rem;
+    background-color: #23272A;
+    border: none;
+    color: white;
+   }
+
+
+
    .footer-top-left{
-    background-color: #F08080;
     width: 18%;
-    border: 1px dashed black;
     min-height: 300px;
   }
 
