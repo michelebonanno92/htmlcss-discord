@@ -31,29 +31,28 @@ general
   */
  
   .header-top{
-    background-color: #ADD8E6;
+    background-color: #255EE9;
     padding: 10px;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
   }
 
-
-  .item-20{
-    background-color: #DAA520 ;
-    border: 1px dashed black;
-    width: 20%;
-    padding: 10px;
-  
+  .button{
+   border-radius: 5%;
+    text-decoration: none ;
+    min-width: 6%;
   }
 
-  .item-40{
-    background-color: #DAA520 ;
-    border: 1px dashed black;
-    width: 40%;
-    padding: 10px;
+  .header-top nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0 5px ;
   }
+
+
 
   .header-bottom{
     background-color: #00008B ;
