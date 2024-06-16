@@ -137,7 +137,7 @@ img{
     line-height: 30px;
   }
 
-  .first-section-main div p ,.second-section-main div p{
+  .first-section-main div p , .second-section-main div p , .third-section-main div p{
     font-size: 0.6rem;
     text-align: left;
     line-height: 15px;
@@ -151,14 +151,6 @@ img{
     align-items: center;
     margin: 0 auto ;
     padding: 50px;
-  }
-
-
-  .third-section-main :nth-child(2){
-    background-color: #FFC0CB ;
-    width: 30%;
-    border: 1px dashed black;
-    min-height: 300px;
   }
 
   .fourth-section-main{
