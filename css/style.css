@@ -41,9 +41,11 @@ general
   }
 
   .button{
-   border-radius: 5%;
     text-decoration: none ;
-    min-width: 6%;
+    border-radius: 20px;
+    padding: 6px 10px;
+    font-size: 0.8em;
+    
   }
 
   .header-top nav a{
@@ -55,18 +57,22 @@ general
 
 
   .header-bottom{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     background-color: #00008B ;
-    min-height: 300px;
-    padding: 20px;
+    min-height: 400px;
+    padding: 60px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
   
   }
 
   .header-bottom > div{
-    background-color: #EE82EE;
-    width: 60%;
+    width: 70%;
+    text-align: center;
+    color: white;
     
   }
 
