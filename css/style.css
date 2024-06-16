@@ -25,6 +25,9 @@ general
     margin: 0 auto ;
  }
 
+ a{
+  text-decoration: none;
+}
 
  /* 
  header
@@ -35,13 +38,12 @@ general
     padding: 10px;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
   }
 
   .button{
-    text-decoration: none ;
     border-radius: 20px;
     padding: 6px 10px;
     font-size: 0.8em;
@@ -49,7 +51,6 @@ general
   }
 
   .header-top nav a{
-    text-decoration: none;
     color: white;
     padding: 0 5px ;
   }
@@ -60,21 +61,45 @@ general
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-color: #00008B ;
-    min-height: 400px;
-    padding: 60px;
+    min-height: 350px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    position: relative;
   
   }
 
   .header-bottom > div{
-    width: 70%;
+    width: 50%;
     text-align: center;
     color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50% );
+    padding-bottom: 20px;
     
   }
+
+  .header-bottom > div h1{
+    padding-bottom: 15px;
+  }
+
+  
+  .header-bottom > div p{
+    font-size: 0.8em;
+    padding-bottom: 10px;
+  }
+
+  #button-black{
+    background-color: black;
+    color: white;
+  }
+
+
+
 
   /* 
   main
