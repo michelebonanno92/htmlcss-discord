@@ -235,7 +235,7 @@ general
    }
 
    .footer-top .footer-top-left select{
-    font-size: 0.4rem;
+    font-size: 0.7rem;
     background-color: #23272A;
     border: none;
     color: white;
@@ -243,7 +243,7 @@ general
 
    
    .footer-top .footer-top-left div a i{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     padding: 2px;
     padding-top: 8px;
     color: white;
@@ -252,7 +252,7 @@ general
 
  .footer-top-right nav a {
     color: white;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     text-decoration: none;
     display: block;
     padding-bottom: 15px;
