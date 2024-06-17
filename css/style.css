@@ -242,8 +242,9 @@ img{
     font-size: 0.6rem;
     text-decoration: none;
     display: block;
-    padding-bottom: 9px;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    padding-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
    }
 
    .footer-top-right nav a:first-child{
@@ -265,7 +266,6 @@ img{
 
   .footer-top-right-child{
     width: 25%;
-    border: 1px dashed white;
   }
 
   .footer-bottom{
