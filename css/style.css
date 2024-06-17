@@ -34,6 +34,14 @@ img{
   width: 100%;
 }
 
+
+.button{
+  border-radius: 20px;
+  padding: 8px 10px;
+  font-size: 0.8em;
+  border: none;
+  cursor: pointer;
+}
  /* 
  header
   */
@@ -48,13 +56,7 @@ img{
     flex-wrap: wrap;
   }
 
-  .button{
-    border-radius: 20px;
-    padding: 6px 10px;
-    font-size: 0.8em;
-    border: none;
-    cursor: pointer;
-  }
+ 
 
   .header-top nav a{
     color: white;
@@ -289,5 +291,4 @@ img{
   .footer-bottom-child a button{
     background-color:  #7289DA;
     color: white;
-    padding: 10px;
   }
