@@ -27,7 +27,8 @@ general
 
  a{
   text-decoration: none;
-}
+
+ }
 
 img{
   width: 100%;
@@ -52,7 +53,7 @@ img{
     padding: 6px 10px;
     font-size: 0.8em;
     border: none;
-    
+    cursor: pointer;
   }
 
   .header-top nav a{
@@ -101,7 +102,7 @@ img{
   #button-black{
     background-color: black;
     color: white;
-    margin-left: 10px;
+    margin-left: 10px; 
   }
 
   /* 
@@ -208,6 +209,7 @@ img{
     justify-content: center;
     padding: 10px;
     color: white;
+    padding-top: 40px;
    }
 
    .footer-top .footer-top-left h3{
@@ -248,7 +250,7 @@ img{
    }
 
    .footer-top-right nav a:first-child{
-    color: #7289DA;;
+    color: #7289DA;
    }
 
 
@@ -269,21 +271,23 @@ img{
   }
 
   .footer-bottom{
-    background-color: #7FFFD4;
-    max-width: 73%;
     min-height: 50px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .footer-bottom-child{
-    background-color: #FFB6C1;
-    border: 2px dashed black;
     text-align: center;
     padding: 5px 10px;
 
+  }
+
+  .footer-bottom-child a button{
+    background-color:  #7289DA;
+    color: white;
+    padding: 10px;
   }
